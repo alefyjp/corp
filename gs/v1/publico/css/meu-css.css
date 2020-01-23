@@ -1,0 +1,232 @@
+/**************************************************************************
+Menu
+***************************************************************************/
+.tema-menu-corp
+{
+  border-top: 20px solid;
+  border-color: #8b0304;
+}
+
+#menu-lateral
+{
+  /*background-color: #8b0304 !important;*/
+  background-color:#231e1ea1 !important;
+  text-transform: uppercase;
+}
+
+.topbar
+{
+  border-top:12px solid #8b0304;
+  padding-top:0px;
+}
+
+.li-telefones
+{
+  margin-left: 30px;
+  list-style: none;
+}
+.telefones
+{
+  margin-top:-5px;
+  color: #8b0304;
+}
+
+.telefones::before
+{
+  content:"";
+}
+
+.telefones i
+{
+ font-size: 13px;
+ margin-top:-4px;
+ position:absolute;
+ color:gray;
+}
+
+
+/***************************************************************************
+Menu fontes
+***************************************************************************/
+.d-sm-flex button
+{
+  text-transform: uppercase !important;
+}
+
+.d-sm-flex a
+{
+  text-transform: uppercase !important;
+}
+
+
+/*****************************************************************************
+  Instalação residencial
+*****************************************************************************/
+#instalacao-residencial
+{
+  background-color:red;
+  height: 55vh;
+  background-image: url("http://corporativa.com.br/gs/v1/publico/img/Instalacoes/residencial.jpg");
+  background-size: 100% 100%;
+  color:white;
+}
+
+#instalacao-residencial a
+{
+  margin-top:20vh;
+  margin-left: 28vh;
+}
+
+/*****************************************************************************
+  Instalação residencial
+*****************************************************************************/
+
+#instalacao-condominio
+{
+  background-color:red;
+  height: 55vh;
+  background-image: url("http://corporativa.com.br/gs/v1/publico/img/Instalacoes/condominio.jpg");
+  background-size: 100% 100%;
+  color:white;
+}
+
+#instalacao-condominio a
+{
+  margin-top:20vh;
+  margin-left: 28vh;
+}
+
+/*****************************************************************************
+  CTOS
+*****************************************************************************/
+#portas
+{
+  padding-top:14%;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+#portas h5
+{
+  color:white;
+}
+#portas div
+{
+  margin-bottom: 2%;
+}
+
+
+#portas button
+{
+  border:1px solid white;
+}
+
+#cto
+{
+  background-image: url("http://corporativa.com.br/gs/v1/publico/img/ctos/cto.png");
+  background-size: 100% 100%;
+  min-height: 600px;
+}
+
+.porta-livre
+{
+  font-size: 100%;
+}
+
+.dados-cliente
+{
+  position:absolute;
+  width: 500px;
+  text-align: left;
+  visibility: hidden;
+  z-index: 10;
+  overflow-x: hidden;
+}
+
+.col-hover:hover .dados-cliente
+{
+  visibility: visible;
+}
+
+/*****************************************************************************
+  EQUIPAMENTOS
+*****************************************************************************/
+.informacoes-equipamento
+{
+  border:1px dotted gray;
+  background-color:whitesmoke;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  overflow-y:scroll;
+  padding:10px;
+}
+
+/*****************************************************************************
+  GERAL
+*****************************************************************************/
+.div-vazia
+{
+  min-height:500px !important;
+
+}
+
+/*****************************************************************************
+  Equipamentos
+*****************************************************************************/
+.menu-equipamentos
+{
+  margin:0px;
+  padding:10px 0px;
+}
+
+.menu-equipamentos li
+{
+  display:inline;
+  padding-left:10px;
+  text-transform: uppercase;
+}
+
+/*****************************************************************************
+footer
+*******************************************************************************/
+
+.ul-footer li
+{
+  list-style: none;
+  display: inline;
+  margin-left:20px;
+}
+
+/*****************************************************************************
+Home
+*******************************************************************************/
+
+#content
+{
+  height:500px !important;
+  overflow-x: scroll;
+}
+
+
+/*****************************************************************************
+imagens 
+*******************************************************************************/
+
+.img-ilustrativa
+{
+  width: 70vh;
+}
+
+.img-rb
+{
+  height:20vh;
+}
+
+/*****************************************************************************
+RB
+*******************************************************************************/
+.col-rb
+{
+  margin-bottom:6vh;
+}

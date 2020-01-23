@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "titulo":"TL-WR 849N",
+        "marca":"tp-link",
+        "imagens":
+        [
+            "http://127.0.0.1/img/roteadores/roteador-tplink.jpg",
+            "http://127.0.0.1/v1/publico/img/fontes/fonte-poe-think-2.jpg"
+        ],
+        "Caracteristicas": 
+        [
+            "4 Portas LAN 10/100Mbps", 
+            "1 Porta WAN 10/100Mbps",
+            "Botões Botão WPS/Reset", 
+            "Fonte de Alimentação Externa 9VDC / 0.6A",
+            "Padrões Wireless IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
+            "Antena 2 Antenas fixas de 5 dBi"
+        ],
+
+        "guia":"http://127.0.0.1/guia_rapido/roteador_tlwr849n.html",
+        "simulador":""
+    }
+]
